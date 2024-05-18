@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Header</title>
+    <link rel="stylesheet" href="video-play.css">
+</head>
+<body class="video-play">
+    <header class="header">
+        <div class="left-section">
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+            <img src="youtube-logo.jpg" alt="YouTube Logo" class="youtube-logo">
+            <span class="country-code">PK</span>
+        </div>
+        <div class="center-section">
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="search-button">&#128269;</button>
+            <button class="mic-button">&#127908;</button>
+        </div>
+        <div class="right-section">
+            <button class="upload-button">&#8682;</button>
+            <button class="notifications-button">
+                &#128276;<span class="notification-count">9+</span>
+            </button>
+            <img src="user-avatar.jpg" alt="User Avatar" class="user-avatar">
+        </div>
+    </header>
+    <nav class="sidebar" id="sidebar">
+        <ul>
+            <li><span class="icon">&#8962;</span> Home</li>
+            <li><span class="icon">&#9738;</span> Shorts</li>
+            <li><span class="icon">&#128250;</span> Subscriptions</li>
+        </ul>
+        <div class="section-title">You</div>
+        <ul>
+            <li><span class="icon">&#128247;</span> Your channel</li>
+            <li><span class="icon">&#8635;</span> History</li>
+            <li><span class="icon">&#128279;</span> Playlists</li>
+            <li><span class="icon">&#128249;</span> Your videos</li>
+            <li><span class="icon">&#9201;</span> Watch later</li>
+            <li><span class="icon">&#128077;</span> Liked videos</li>
+        </ul>
+        <div class="section-title">Subscriptions</div>
+        <ul>
+            <li><img src="avatar1.jpg" alt="Avatar" class="avatar"> Avatar: The Last...</li>
+            <li><img src="avatar2.jpg" alt="Avatar" class="avatar"> Dunya News</li>
+            <li><img src="avatar3.jpg" alt="Avatar" class="avatar"> Suits Official</li>
+            <li><img src="avatar4.jpg" alt="Avatar" class="avatar"> Fusion Labs</li>
+            <li><img src="avatar5.jpg" alt="Avatar" class="avatar"> Big Bang Theory</li>
+            <li><img src="avatar6.jpg" alt="Avatar" class="avatar"> Neso Academy</li>
+            <li><img src="avatar7.jpg" alt="Avatar" class="avatar"> JalRaj</li>
+            <li>Show more</li>
+        </ul>
+    </nav>
+    <main class="content">
+		<div class="video-grid">
+			<video src="/video/video1.mp4" alt="video" class="video-play" controls></video>
+			<!-- Add more video cards as needed -->
+			<div class="channel-info">
+				<img src="channel-logo.png" alt="Channel Logo" class="channel-logo">
+				<div class="channel-details">
+				  <h2 class="channel-name">Channel Name</h2>
+				  <p class="channel-description">Channel description goes here...</p>
+				</div>
+			  </div>
+			  
+			  <div class="buttons">
+				<button class="subscribe-button">Subscribe</button>
+				<button class="notification-button">Notifications</button>
+				<button class="share-button">Share</button>
+				<button class="save-button">Save</button>
+			  </div>
+			  
+			  <div class="comments">
+				<h3 class="comments-title">Comments</h3>
+				<div class="comment-box">
+				  <input type="text" class="comment-input" placeholder="Write a comment...">
+				  <button class="post-comment-button">Post</button>
+				</div>
+				<ul class="comment-list">
+				  <li class="comment-item">
+					<img src="user-avatar.png" alt="User Avatar" class="user-avatar">
+					<div class="comment-content">
+					 
+					</div>
+				  </li>
+				  <!-- Add more comment items as needed -->
+				</ul>
+			  </div>
+		</div>
+		<div class="video-card">
+            <img src="/thumbnail/video-thumbnail1.jpg" alt="Video Thumbnail" class="video-thumbnail">
+			<img src="/thumbnail/video-thumbnail2.jpg" alt="Video Thumbnail" class="video-thumbnail">
+			<img src="/thumbnail/video-thumbnail3.jpg" alt="Video Thumbnail" class="video-thumbnail">
+			<img src="/thumbnail/video-thumbnail2.jpg" alt="Video Thumbnail" class="video-thumbnail">
+			<img src="/thumbnail/video-thumbnail3.jpg" alt="Video Thumbnail" class="video-thumbnail">
+			<img src="/thumbnail/video-thumbnail2.jpg" alt="Video Thumbnail" class="video-thumbnail">
+			<img src="/thumbnail/video-thumbnail3.jpg" alt="Video Thumbnail" class="video-thumbnail">
+			<img src="/thumbnail/video-thumbnail2.jpg" alt="Video Thumbnail" class="video-thumbnail">
+			<img src="/thumbnail/video-thumbnail3.jpg" alt="Video Thumbnail" class="video-thumbnail">
+			<img src="/thumbnail/video-thumbnail2.jpg" alt="Video Thumbnail" class="video-thumbnail">
+        </div>
+	</main>
+    <script src="video-play.js"></script>
+</body>
+</html>
